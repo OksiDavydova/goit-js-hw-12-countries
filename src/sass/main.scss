@@ -5,3 +5,64 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+
+.pnotify-content .pnotify-text-with-max-height {
+  overflow-y: hidden;
+  overscroll-behavior: none;
+  padding-bottom: .03em;
+}
+
+.overlay{
+  // max-width: 1200px;
+  display: flex;
+  // text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  display: block;
+max-width: 100%;
+border: 2px solid black;
+}
+
+.country__name {
+  font-size: 50px;
+  display: block;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.country-languages {
+  padding-left: 10px;
+  list-style-type: square;
+  margin-inline-start: 9px;
+  // margin-bottom: 20px;
+
+  &__item {
+    margin-top: 15px;
+    
+    // padding-left: 20px;
+  }
+}
+
+
+.search-query{
+  display: block;
+  width: 300px;
+  margin: 50px auto 50px 150px;
+  padding: 15px 0 15px 0;
+  border-radius: 10px;
+  border-color: cadetblue;
+  outline: transparent;
+  font: 500 20px Arial;
+}
+.list {
+  margin-left: 150px;
+}
+.list_item {
+  margin: 10px auto 10px auto;
+}
+
